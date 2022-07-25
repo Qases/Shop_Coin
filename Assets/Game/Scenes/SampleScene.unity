@@ -535,6 +535,24 @@ MonoBehaviour:
   _prefab: {fileID: 5858114489620649552, guid: 6256952f1ec7f2e46a41becd8977ec2d, type: 3}
   _count: 5
   _range: {x: 4, y: 1, z: 4}
+--- !u!1 &1449591945 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2758034039726161199, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+  m_PrefabInstance: {fileID: 2758034040589049921}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1449591950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449591945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: -5, z: 0}
 --- !u!1001 &2758034040589049921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -542,6 +560,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1691700175409942361, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758034038960163629, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b09022fcf876adc4e8f6131ff909d66a, type: 2}
     - target: {fileID: 2758034038960163630, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_LocalScale.x
       value: 15.445614
@@ -570,6 +596,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 2758034039363729587, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b09022fcf876adc4e8f6131ff909d66a, type: 2}
+    - target: {fileID: 2758034039854572386, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758034039854572386, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758034039854572388, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758034039854572388, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758034039854572388, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2758034039854572388, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2758034039854572393, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_Size.y
       value: 6.38739
@@ -578,6 +632,10 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 2.193688
       objectReference: {fileID: 0}
+    - target: {fileID: 2758034039960686429, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b09022fcf876adc4e8f6131ff909d66a, type: 2}
     - target: {fileID: 2758034039960686430, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.148709
@@ -606,6 +664,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 2758034040193681736, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b09022fcf876adc4e8f6131ff909d66a, type: 2}
     - target: {fileID: 2758034040193681741, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.2093103
@@ -634,6 +696,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -45
       objectReference: {fileID: 0}
+    - target: {fileID: 2758034040769545572, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b09022fcf876adc4e8f6131ff909d66a, type: 2}
+    - target: {fileID: 2758034040808218557, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: b09022fcf876adc4e8f6131ff909d66a, type: 2}
     - target: {fileID: 2758034040808218558, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_LocalScale.x
       value: 13.811162
@@ -661,6 +731,10 @@ PrefabInstance:
     - target: {fileID: 2758034040808218558, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3243047377513039943, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: type
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4532858115283829433, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_RootOrder
@@ -714,9 +788,14 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 2.1936882
       objectReference: {fileID: 0}
+    - target: {fileID: 5036623444144596798, guid: cb6bfc0370739a4439844043053090f7, type: 3}
+      propertyPath: type
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7765505916861591368, guid: cb6bfc0370739a4439844043053090f7, type: 3}
       propertyPath: m_Name
       value: Scene Base
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2758034039726161198, guid: cb6bfc0370739a4439844043053090f7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cb6bfc0370739a4439844043053090f7, type: 3}

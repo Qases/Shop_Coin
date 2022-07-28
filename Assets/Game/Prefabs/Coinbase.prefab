@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8806292633096419488}
   - component: {fileID: 8806292633096419501}
   - component: {fileID: 1493591714115117111}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Coinbase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,3 +110,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de8a8403f73c97b4c9fd3d1456e87a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0

@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8803270895386343619}
-  m_Layer: 0
-  m_Name: Coinbase 1
+  m_Layer: 8
+  m_Name: Coinbases
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -158,12 +158,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2755856561787629621, guid: 714b32661d0fe2d4e86bb6b966796699, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755856561787629621, guid: 714b32661d0fe2d4e86bb6b966796699, type: 3}
       propertyPath: m_Mass
-      value: 0.563
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2755856561787629621, guid: 714b32661d0fe2d4e86bb6b966796699, type: 3}
       propertyPath: m_AngularDrag
-      value: 0.09
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755856561787629621, guid: 714b32661d0fe2d4e86bb6b966796699, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2755856561787629621, guid: 714b32661d0fe2d4e86bb6b966796699, type: 3}
       propertyPath: m_CollisionDetection

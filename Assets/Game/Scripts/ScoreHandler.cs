@@ -6,7 +6,7 @@ namespace SortItems
 {
     public class ScoreHandler : MonoBehaviour
     {
-        [SerializeField] private GetterParameters[] _getters;
+        [SerializeField] public GetterParameters[] _getters;
 
         public UnityEvent onFull;
         

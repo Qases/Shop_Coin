@@ -9,8 +9,8 @@ namespace SortItems
 
 
         private DragItem _item;
-        private Material _material;
-        private Color _defaultColor;
+        public Material _material;
+        public Color _defaultColor;
 
         private int targetCount = 1;
         private int count = 0;
@@ -96,7 +96,7 @@ namespace SortItems
 
                 onCountChanged.Invoke(this);
 
-                if (count >=targetCount)
+                if (count >= targetCount)
                 {
                     _material.color = Color.magenta;
                     active = false;

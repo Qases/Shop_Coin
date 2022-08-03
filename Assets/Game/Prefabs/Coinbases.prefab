@@ -258,6 +258,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8803270895386343619}
     m_Modifications:
     - target: {fileID: 8806292633096419488, guid: 5100bdda679242a418056a0b5fcf4c76, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806292633096419488, guid: 5100bdda679242a418056a0b5fcf4c76, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1d2099b0d16de0e40a1193bc05df0334, type: 2}
@@ -308,6 +312,10 @@ PrefabInstance:
     - target: {fileID: 8806292633096419494, guid: 5100bdda679242a418056a0b5fcf4c76, type: 3}
       propertyPath: m_Name
       value: Coinbase 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806292633096419494, guid: 5100bdda679242a418056a0b5fcf4c76, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5100bdda679242a418056a0b5fcf4c76, type: 3}

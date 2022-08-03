@@ -12,8 +12,9 @@ namespace SortItems
            var idx = SceneManager.GetActiveScene().buildIndex;
 
            if (level != idx)
-
+           {
                 LoadLevel(level);
+           }
         }
 
         public void LoadLevel(int levelIdx)
@@ -40,7 +41,9 @@ namespace SortItems
         private void Update() 
         {
             if (Input.GetKeyUp(KeyCode.R))
+            {
                 ReloadScene();
+            }
         }
 
     }

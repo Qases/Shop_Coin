@@ -18,7 +18,7 @@ namespace SortItems
                 Debug.LogError("Getters is null");
                 return;
             }
-
+    
             foreach (var getter in _getters)
             {
                 getter.getter.SetCount(getter.targetCount);

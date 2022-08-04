@@ -5,33 +5,22 @@ namespace SortItems
 {
     public class SceneChanger : MonoBehaviour
     {
-        private void Start() 
-        {
-           var level = PlayerPrefs.GetInt("Level",0);
+        [SerializeField] private GameObject Lvl_Prev;
+        [SerializeField] private GameObject Lvl_Next;
+        [SerializeField] private GameObject[] CoinBases;
 
-           var idx = SceneManager.GetActiveScene().buildIndex;
 
-           if (level != idx)
-           {
-                LoadLevel(level);
-           }
-        }
-
-        public void LoadLevel(int levelIdx)
-        {
-            var sceneCount = SceneManager.sceneCountInBuildSettings;
-            var nextLevel = (levelIdx) % sceneCount;
-            SceneManager.LoadScene(nextLevel);
-        }
 
         public void LoadNextLevel()
         {
-            var idx = SceneManager.GetActiveScene(). buildIndex;
-            var sceneCount = SceneManager.sceneCountInBuildSettings;
-            var nextLevel = (idx + 1) % sceneCount;
-            PlayerPrefs.SetInt("Level", nextLevel);
-            SceneManager.LoadScene(nextLevel);          
+            Destroy(Lvl_Prev);
+            foreach(var _base in CoinBases)
+                Destroy (_base);
+            Lvl_Prev.SetActive(false);
+            Instantiate(Lvl_Next);        
         }
+
+        
 
         public void ReloadScene()
         {

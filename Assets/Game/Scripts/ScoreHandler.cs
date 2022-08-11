@@ -66,9 +66,7 @@ namespace SortItems
         }
     }
 
-    [System.Serializable]
-
-    public struct GetterParameters
+    [System.Serializable] public struct GetterParameters
     {
         public Getter getter;
 
